@@ -10,15 +10,14 @@ import { RootState, AppDispatch } from "../../store/store";
 import Text from "../../components/Text/Text";
 
 function About() {
-
  const dispatch = useDispatch<AppDispatch>();
- const { items: goods, loading } = useSelector((state: RootState) => state.product);
+ const { items: goods, loading } = useSelector(
+  (state: RootState) => state.product
+ );
 
  useEffect(() => {
-   dispatch(
-    fetchProducts());
+  dispatch(fetchProducts());
  }, [dispatch]);
-
 
  const placeholders = Array.from({ length: 4 }, (_, i) => (
   <div key={i} className={cn(styles["card"], styles["placeholder"])}>
@@ -40,7 +39,7 @@ function About() {
     ) : goods.length > 0 ? (
      <div className={cn(styles["about-wrapper"])}>
       <div className={cn(styles["card"])}>
-       <Text type={"left"}>
+       <Text type={"left"} className={cn(styles["card-text"])}>
         Perfect dresses for every day, the office, dates, or special events and
         other.
         <br />
@@ -55,15 +54,15 @@ function About() {
       {goods
        .filter((p) => p.id <= 4)
        .map((p) => (
-         <Card
-          id={p.id}
-          image={p.image?.[0]}
-          name={p.name}
-          price={p.price}
-          stock={p.stock}
-          key={p.id}
-          className={cn(styles["card"])}
-         />
+        <Card
+         id={p.id}
+         image={p.image?.[0]}
+         name={p.name}
+         price={p.price}
+         stock={p.stock}
+         key={p.id}
+         className={cn(styles["card"])}
+        />
        ))}
       <div className={cn(styles["card"])}>
        <Text type={"right"} className={cn(styles["text-right"])}>
@@ -76,7 +75,6 @@ function About() {
         <br />
         <br />
         Perfect dresses for every day, the office, dates, or events.
-       
        </Text>
       </div>
      </div>
