@@ -1,0 +1,125 @@
+{
+ "products": [
+  {
+   "id": 1,
+   "name": "Dress Glory",
+   "price": 300,
+   "image": ["/card/1.png", "/card/1.png", "/card/1.png", "/card/1.png", "/card/1.png", "/card/1.png", "/card/1.png", "/card/1.png"],
+   "description": "A versatile and elegant dress perfect for daily wear, office meetings, and romantic evenings.",
+   "stock": 15
+  },
+  {
+   "id": 2,
+   "name": "Elegant Gown",
+   "price": 450,
+   "image": ["/card/2.png", "/card/2.png", "/card/2.png", "/card/2.png"],
+   "description": "This luxurious gown combines classic elegance with modern details for unforgettable occasions.",
+   "stock": 12
+  },
+  {
+   "id": 3,
+   "name": "Chic Ensemble",
+   "price": 275,
+   "image": ["/card/3.png", "/card/3.png", "/card/3.png", "/card/3.png"],
+   "description": "A stylish outfit designed for a fashionable day out or a casual meeting with friends.",
+   "stock": 9
+  },
+  {
+   "id": 4,
+   "name": "Classic Midi Dress",
+   "price": 320,
+   "image": ["/card/4.png", "/card/4.png", "/card/4.png", "/card/4.png"],
+   "description": "Timeless elegance meets modern simplicity in this versatile midi dress.",
+   "stock": 20
+  },
+  {
+   "id": 5,
+   "name": "Luxury Evening Dress",
+   "price": 550,
+   "image": ["/card/5.png", "/card/5.png", "/card/5.png", "/card/5.png"],
+   "description": "A stunning evening dress with intricate detailing for glamorous events.",
+   "stock": 8
+  },
+  {
+   "id": 6,
+   "name": "Romantic Lace Dress",
+   "price": 280,
+   "image": ["/card/6.png", "/card/6.png", "/card/6.png", "/card/6.png"],
+   "description": "Delicate lace and a romantic silhouette make this dress ideal for special moments.",
+   "stock": 18
+  },
+  {
+   "id": 7,
+   "name": "Casual Summer Dress",
+   "price": 150,
+   "image": ["/card/7.png", "/card/7.png", "/card/7.png", "/card/7.png"],
+   "description": "Stay cool and stylish during warm days with this lightweight summer dress.",
+   "stock": 14
+  },
+  {
+   "id": 8,
+   "name": "Party Cocktail Dress",
+   "price": 350,
+   "image": ["/card/8.png", "/card/8.png", "/card/8.png", "/card/8.png"],
+   "description": "Turn heads at any party with this bold and glamorous cocktail dress.",
+   "stock": 10
+  },
+  {
+   "id": 9,
+   "name": "Vintage Maxi Dress",
+   "price": 400,
+   "image": ["/card/9.png", "/card/9.png", "/card/9.png", "/card/9.png"],
+   "description": "Step into the past with this elegant vintage-inspired maxi dress.",
+   "stock": 5
+  },
+  {
+   "id": 10,
+   "name": "Bohemian Chic Dress",
+   "price": 375,
+   "image": ["/card/10.png", "/card/10.png", "/card/10.png", "/card/10.png"],
+   "description": "Express your free spirit with this flowing bohemian dress, perfect for festivals or beach days.",
+   "stock": 7
+  },
+  {
+   "id": 11,
+   "name": "Trendy Jacket",
+   "price": 600,
+   "image": ["/card/11.png", "/card/11.png", "/card/11.png", "/card/11.png"],
+   "description": "A contemporary jacket crafted for urban explorers and modern professionals.",
+   "stock": 12
+  },
+  {
+   "id": 12,
+   "name": "Warm Wool Coat",
+   "price": 800,
+   "image": ["/card/12.png", "/card/12.png", "/card/12.png", "/card/12.png"],
+   "description": "Stay warm in style with this premium wool coat, perfect for chilly days.",
+   "stock": 6
+  },
+  {
+   "id": 13,
+   "name": "Denim Overalls",
+   "price": 250,
+   "image": ["/card/13.png", "/card/13.png", "/card/13.png", "/card/13.png"],
+   "description": "Relaxed-fit denim overalls for a casual, laid-back vibe that never goes out of fashion.",
+   "stock": 20
+  },
+  {
+   "id": 14,
+   "name": "Classic Suit",
+   "price": 1000,
+   "image": ["/card/14.png", "/card/14.png", "/card/14.png", "/card/14.png"],
+   "description": "A high-quality tailored suit that exudes confidence and professionalism.",
+   "stock": 3
+  },
+  {
+   "id": 15,
+   "name": "Athletic Hoodie",
+   "price": 200,
+   "image": ["/card/15.png", "/card/15.png", "/card/15.png", "/card/15.png"],
+   "description": "Sporty and stylish, this hoodie is perfect for workouts or casual wear.",
+   "stock": 16
+  }
+ ],
+ "cart": []
+}

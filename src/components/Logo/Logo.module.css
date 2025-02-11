@@ -1,0 +1,30 @@
+.logo{
+ color: var(--text-color);
+ font-family: var(--font);
+ font-size: 2.51531rem;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 100%; 
+}
+.motto{
+ font-family: var(--font-accent);
+ color: var(--text-color);
+ font-size: 1.38344rem;
+ line-height: 100%; 
+ letter-spacing: 0.17988rem;
+}
+.logo-wrapper{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+}
+@media(max-width: 1200px)  {
+ .logo-wrapper{
+  position: static;
+  transform: translate(0%,0%);
+ }
+}
