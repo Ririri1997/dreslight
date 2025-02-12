@@ -7,6 +7,7 @@ const TrashButton = ({ onClick, className, disabled }: TrashButtonProps) => {
    <button onClick={onClick} className={cn(styles['button'], className, {
     [styles['disabled']] : disabled
    })}>
+    <img src="" alt="" />
    </button>
  );
 };

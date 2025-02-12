@@ -11,8 +11,8 @@ function Card(props: CardProps) {
  const dispatch = useDispatch<AppDispatch>();
 
  return (
-  <div className={cn(styles["card-wrapper"])}>
-   <div className={cn(styles["card"], props.className)}>
+  <div className={cn(styles["card-frame"])}>
+   <div className={cn(styles["card"])}>
     <img src={props.image} alt={props.image} className={cn(styles["image"])} />
     <div className={cn(styles["card-info"])}>
      <span className={cn(styles["name"])}>{props.name}</span>

@@ -22,7 +22,7 @@ function CartQuantityControl({
 
   return (
     <div className={cn(styles["quantity-control"])}>
-      <BaseButton onClick={() => dispatch(cartActions.removeFromCart({ id }))}>
+      <BaseButton onClick={() => dispatch(cartActions.removeFromCart({ id }))} >
         -
       </BaseButton>
       <div className={cn(styles["quantity-number"])}>{quantity}</div>

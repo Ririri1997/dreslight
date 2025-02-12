@@ -1,5 +1,6 @@
 .product{
  padding-top: 3.75em;
+ padding-bottom: 3.75em;
 }
 .product-wrapper{
  display: grid;

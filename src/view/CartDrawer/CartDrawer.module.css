@@ -111,3 +111,17 @@
  border: 1px solid var(--text-color);
 }
 
+
+@media(max-width: 980px)  {
+ .drawer {
+  max-width: 100%;
+ }
+
+}
+ @media(max-width: 768px)  {
+  
+.item{ 
+ flex-direction: column;
+}
+
+}

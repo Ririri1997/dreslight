@@ -31,3 +31,10 @@
  border: 2px solid var(--text-color);
  cursor: auto;
 }
+
+@media(max-width: 768px)  {
+ .button{
+  min-width: 4rem;
+  min-height: 4rem;
+ }
+}

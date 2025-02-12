@@ -26,12 +26,10 @@ function Catalog() {
   }, [dispatch]);
 
   const filteredAndSortedProducts = useMemo(() => {
-    // Фильтрация
     const filtered = items.filter((product) =>
       product.name.toLowerCase().includes(searchQuery.toLowerCase())
     );
 
-    // Сортировка
     if (sortType === "lowest") {
       return filtered.sort((a, b) => a.price - b.price);
     } else if (sortType === "highest") {
@@ -78,6 +76,7 @@ function Catalog() {
         ) : (
           <div className={cn(styles["catalog-wrapper"])}>
             {currentProducts.map((p) => (
+             <div className={cn(styles["card-wrapper"])}>
               <Card
                 className={cn(styles["card"])}
                 id={p.id}
@@ -87,6 +86,7 @@ function Catalog() {
                 key={p.id}
                 stock={p.stock}
               />
+              </div>
             ))}
           </div>
         )}

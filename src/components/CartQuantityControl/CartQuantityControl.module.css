@@ -18,3 +18,12 @@
  align-items: center;
  justify-content: center;
 }
+
+@media(max-width: 768px)  {
+ .quantity-number{
+  max-height: 4rem;
+  max-width: 4rem;
+  padding: 0;
+
+ }
+}
