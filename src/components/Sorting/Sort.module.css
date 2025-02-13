@@ -14,3 +14,8 @@
  padding-bottom: 0.25rem;
  cursor: pointer;
 }
+@media (max-width: 768px) {
+ .sort-button{
+  font-size: 1.25rem;
+ }
+}

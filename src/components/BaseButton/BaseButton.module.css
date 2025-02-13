@@ -38,3 +38,9 @@
   min-height: 4rem;
  }
 }
+
+@media(max-width: 520px)  {
+ .button{
+  padding: 1rem 1rem 1rem;
+ }
+}

@@ -3,6 +3,7 @@
  height: 100%;
  object-fit: cover;
 }
+
 .card-frame:hover{
  border-radius: 56.25rem;
  overflow: hidden;
@@ -96,7 +97,6 @@
   transform: translate(0%, 0%);
  }
  .card-info{
-  position: static;
   order: 2;
  }
  .card-frame:hover .card-info{
